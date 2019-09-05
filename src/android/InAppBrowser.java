@@ -123,6 +123,7 @@ public class InAppBrowser extends CordovaPlugin {
     private static final String BEFORELOAD = "beforeload";
 
     private static final List customizableOptions = Arrays.asList(
+        LOCATION,
         CLOSE_BUTTON_CAPTION,
         TOOLBAR_COLOR,
         NAVIGATION_COLOR,
